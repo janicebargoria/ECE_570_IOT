@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Internet of Things (IoT) | Janice Bargoria</title>
+
+  <style>
+
+    /* ==========================================
+       WEBSITE COLORS
+       ========================================== */
+
+    :root {
+      --primary-color: #0f766e;
+      --primary-light: #ecfeff;
+      --primary-border: #a5f3fc;
+      --primary-text: #0e7490;
+      --background: #f7f7f8;
+      --card-background: #ffffff;
+      --text-color: #222222;
+      --border-color: #e5e7eb;
+      --max-width: 900px;
+    }
+
+    /* ==========================================
+       GENERAL WEBSITE STYLING
+       ========================================== */
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background: var(--background);
+      color: var(--text-color);
+    }
+
+    /* ==========================================
+       HEADER
+       ========================================== */
+
+    header {
+      background: var(--primary-color);
+      color: white;
+      padding: 40px 25px;
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: 32px;
+    }
+
+    header h2 {
+      font-size: 22px;
+      margin: 0 0 10px;
+      font-weight: normal;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 17px;
+    }
+
+    /* ==========================================
+       MAIN CONTENT
+       ========================================== */
+
+    main {
+      max-width: var(--max-width);
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    /* ==========================================
+       ASSIGNMENT CARDS
+       ========================================== */
+
+    .card {
+      background: var(--card-background);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      background: var(--primary-color);
+      color: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      display: inline-block;
+      font-size: 19px;
+      margin: 15px 0;
+    }
+
+    /* ==========================================
+       ASSIGNMENT LABEL
+       ========================================== */
+
+    .tag {
+      display: inline-block;
+      font-size: 14px;
+      padding: 5px 12px;
+      background: var(--primary-light);
+      border: 1px solid var(--primary-border);
+      color: var(--primary-text);
+      border-radius: 20px;
+    }
+
+    /* ==========================================
+       LINKS
+       ========================================== */
+
+    ul {
+      padding-left: 25px;
+      margin: 15px 0;
+    }
+
+    li {
+      margin-bottom: 12px;
+      font-size: 16px;
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: underline;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      color: #064e3b;
+    }
+
+    /* ==========================================
+       ASSIGNMENT DESCRIPTION
+       ========================================== */
+
+    .note {
+      font-size: 16px;
+      color: #374151;
+      margin-top: 18px;
+    }
+
+    /* ==========================================
+       FOOTER
+       ========================================== */
+
+    footer {
+      max-width: var(--max-width);
+      margin: 30px auto;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+    }
+
+    /* ==========================================
+       MOBILE SCREEN SUPPORT
+       ========================================== */
+
+    @media (max-width: 600px) {
+
+      header h1 {
+        font-size: 25px;
+      }
+
+      header h2 {
+        font-size: 18px;
+      }
+
+      .card {
+        padding: 20px;
+      }
+
+      .card h3 {
+        font-size: 17px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ==========================================
+       WEBSITE HEADER
+       ========================================== -->
+
+  <header>
+
+    <h1>Internet of Things (IoT) - ECE 570</h1>
+
+    <h2>Janice Bargoria | Sonoma State University</h2>
+
+    <p>
+      My course assignment hub for IoT projects,
+      database exercises, source code, and reports.
+    </p>
+
+  </header>
+
+
+  <!-- ==========================================
+       MAIN CONTENT
+       ========================================== -->
+
+  <main>
+
+
+    <!-- ========================================
+         ASSIGNMENT 6 - DATABASE ASSIGNMENT
+         ======================================== -->
+
+    <section class="card">
+
+      <span class="tag">Assignment 6</span>
+
+      <h3>
+        Assignment 6: Database Assignment - MySQL & IoT
+      </h3>
+
+      <ul>
+
+        <!-- GitHub Repository Link -->
+
+        <li>
+          <strong>GitHub - MySQL Code:</strong>
+
+          <a
+            href="https://github.com/janicebargoria/ECE_570_IOT/tree/main/Database%20Assignment_MySQL%20%26%20IOT"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            View My GitHub Code
+
+          </a>
+
+        </li>
+
+
+        <!-- Assignment Report Link -->
+
+        <li>
+          <strong>Assignment Report:</strong>
+
+          <a
+            href="https://docs.google.com/document/d/1uMJIJCl1vnWGVFF0rHt33eKN-WuynbhbksECgkYrNU8/edit"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            View My Database Assignment Report
+
+          </a>
+
+        </li>
+
+      </ul>
+
+
+      <!-- Assignment Description -->
+
+      <p class="note">
+
+        <strong>Assignment Goal:</strong>
+
+        Create a MySQL/MariaDB database using Hostinger
+        and phpMyAdmin.
+
+        Register five different IoT sensors, store
+        temperature and humidity readings, and
+        manage sensor information using SQL commands.
+
+        Demonstrate SQL JOIN operations, database
+        VIEW creation, primary keys, foreign keys,
+        and referential integrity.
+
+      </p>
+
+    </section>
+
+
+
+    <!-- ========================================
+         ASSIGNMENT 7 - FUTURE ASSIGNMENT
+         ======================================== -->
+
+    <section class="card">
+
+      <span class="tag">Assignment 7</span>
+
+      <h3>
+        Assignment 7: Upcoming IoT Project
+      </h3>
+
+      <p class="note">
+
+        Future IoT assignments, project reports,
+        and source code will be added here.
+
+      </p>
+
+    </section>
+
+
+    <!-- ========================================
+         MORE ASSIGNMENTS CAN BE ADDED HERE
+         ======================================== -->
+
+
+  </main>
+
+
+  <!-- ==========================================
+       WEBSITE FOOTER
+       ========================================== -->
+
+  <footer>
+
+    <p>
+      Janice Bargoria | Sonoma State University
+    </p>
+
+    <p>
+      ECE 570 - Introduction to the Internet of Things
+    </p>
+
+    <p>
+      IoT Course Assignments and Project Portfolio
+    </p>
+
+  </footer>
+
+</body>
+
+</html>
