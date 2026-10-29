@@ -74,7 +74,7 @@ function safe($value) {
     <meta name="viewport"
           content="width=device-width, initial-scale=1">
 
-    <title>SSU IoT Lab - Sensor Database</title>
+    <title> Sensor Readings Database</title>
 
     <style>
         body {
@@ -130,7 +130,7 @@ function safe($value) {
 
 <h1>Welcome to SSU IoT Lab</h1>
 
-<p>Student: Janice Bargoria</p>
+<p> Janice Bargoria</p>
 <p>ECE 570 - Internet of Things</p>
 
 <!-- First Table -->
