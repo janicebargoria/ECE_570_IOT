@@ -1,7 +1,6 @@
 
 <?php
 // ===========================================
-// ECE 570 - IoT Database Assignment Part 2
 // Display sensor registration and readings
 // ===========================================
 
@@ -128,7 +127,7 @@ function safe($value) {
 
 <body>
 
-<h1>Welcome to SSU IoT Lab</h1>
+<h1> Sensor Database </h1>
 
 <p> Janice Bargoria</p>
 <p>ECE 570 - Internet of Things</p>
